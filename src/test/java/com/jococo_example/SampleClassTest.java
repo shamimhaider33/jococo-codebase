@@ -7,11 +7,11 @@ public class SampleClassTest {
 
 	@Test
 	public void showTest0() {
-		Assert.assertEquals("Test...", SampleClass.show(0));
+		Assert.assertEquals(SampleClass.show(0),"Test...");
 	}
 
 	@Test
 	public void showTest1() {
-		Assert.assertEquals(".....", SampleClass.show(1));
+		Assert.assertEquals(SampleClass.show(1),".....");
 	}
 }
