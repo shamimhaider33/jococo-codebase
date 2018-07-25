@@ -5,15 +5,13 @@ import org.junit.Test;
 
 public class ExampleTest {
 
-    @Test
-    public void displayTest0(){
-        String s = Example.display(0);
-        Assert.assertEquals(s,"Test...");
-    }
-    
-    @Test
-    public void displayTest1(){
-        String s = Example.display(1);
-        Assert.assertEquals(s,".....");
-    }
+	@Test
+	public void displayTest0() {
+		Assert.assertEquals("Test...", Example.display(0));
+	}
+
+	@Test
+	public void displayTest1() {
+		Assert.assertEquals(".....", Example.display(1));
+	}
 }
